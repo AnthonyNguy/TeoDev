@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cờ Caro - Đấu với máy nâng cao</title>
+   <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+    <h1 class="chess">Cờ Caro</h1>
+    <div class="difficulty">
+        <button id="easy-btn" class="active">Dễ</button>
+        <button id="medium-btn">Trung bình</button>
+        <button id="hard-btn">Khó</button>
+    </div>
+    <div class="game-info">
+        Bạn là: <span id="player-symbol"></span> | Lượt đi: <span id="current-turn"></span>
+    </div>
+    <div class="board" id="board"></div>
+    
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2 id="modal-message"></h2>
+            <button id="restart-button">Chơi lại</button>
+        </div>
+    </div>
+
+    <script src="chess.js"></script>
+        
+</body>
+</html>
